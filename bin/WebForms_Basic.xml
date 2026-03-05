@@ -1,0 +1,2835 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sunday-school-ms
+</name>
+</assembly>
+<members>
+<member name="T:sunday_school_ms.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:sunday_school_ms.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:sunday_school_ms.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:sunday_school_ms.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:sunday_school_ms.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:sunday_school_ms.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="M:sunday_school_ms.AutoGenerate.NextID(System.Data.SqlClient.SqlConnection,System.String,System.String,System.String,System.Int32,System.Data.SqlClient.SqlTransaction)">
+ <summary>
+ Generate next ID for a table with a prefix and numeric sequence
+ </summary>
+ <param name="connection">Open SqlConnection</param>
+ <param name="tableName">Table to check for existing IDs</param>
+ <param name="columnName">ID column name</param>
+ <param name="prefix">Prefix for the ID, e.g. "SL-"</param>
+ <param name="padLength">Number of digits for numeric part, e.g. 2 → SL-01</param>
+ <param name="transaction">Optional SqlTransaction</param>
+ <returns>Next ID string</returns>
+</member>
+<member name="M:sunday_school_ms.DbHelper.GetConnectionString">
+ <summary>
+ Always return the local SQL Server connection string.
+ </summary>
+</member>
+<member name="M:sunday_school_ms.DbHelper.TestConnection">
+ <summary>
+ Test the database connection.
+ </summary>
+</member>
+<member name="F:sunday_school_ms.index._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.index._BtnGeneralAccess">
+<summary>
+BtnGeneralAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.index._BtnLogin">
+<summary>
+BtnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.activate_account._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.activate_account._BtnDashboard">
+<summary>
+BtnDashboard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.activate_account._txtSearchName">
+<summary>
+txtSearchName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.activate_account._BtnSearch">
+<summary>
+BtnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.activate_account._GridView_EditUserInfo">
+<summary>
+GridView_EditUserInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.activate_account._SqlDataSource_editUserInfo">
+<summary>
+SqlDataSource_editUserInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_activity._ddlActivityName">
+<summary>
+ddlActivityName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_activity._rfvActivity">
+<summary>
+rfvActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_activity._txtNewActivity">
+<summary>
+txtNewActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_activity._rfvNewActivity">
+<summary>
+rfvNewActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_activity._txtActivityDate">
+<summary>
+txtActivityDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_activity._rfvDate">
+<summary>
+rfvDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_activity._BtnInsert">
+<summary>
+BtnInsert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_activity._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputFirstName">
+<summary>
+InputFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputLastName">
+<summary>
+InputLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputChineseName">
+<summary>
+InputChineseName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputGender">
+<summary>
+InputGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputDateOfBirth">
+<summary>
+InputDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputReligion">
+<summary>
+InputReligion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputJoinedDate">
+<summary>
+InputJoinedDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputChurch">
+<summary>
+InputChurch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputInviter">
+<summary>
+InputInviter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputSchool">
+<summary>
+InputSchool control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._InputRemark">
+<summary>
+InputRemark control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._BtnSubmit">
+<summary>
+BtnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child_confirmation._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtFirstName">
+<summary>
+TxtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._CheckFirstName">
+<summary>
+CheckFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtLastName">
+<summary>
+TxtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._CheckLastName">
+<summary>
+CheckLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtChineseName">
+<summary>
+TxtChineseName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._CheckChineseName">
+<summary>
+CheckChineseName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._RblGender">
+<summary>
+RblGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._CheckGender">
+<summary>
+CheckGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtDateOfBirth">
+<summary>
+TxtDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._CheckDateOfBirth">
+<summary>
+CheckDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._CvDateOfBirthYearOnly">
+<summary>
+CvDateOfBirthYearOnly control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._RblReligion">
+<summary>
+RblReligion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._CheckReligion">
+<summary>
+CheckReligion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtJoinedDate">
+<summary>
+TxtJoinedDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._CheckJoinedDate">
+<summary>
+CheckJoinedDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._RvTxtJoinedDate">
+<summary>
+RvTxtJoinedDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtInviter">
+<summary>
+TxtInviter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtChurch">
+<summary>
+TxtChurch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtSchool">
+<summary>
+TxtSchool control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._TxtRemark">
+<summary>
+TxtRemark control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._BtnConfirm">
+<summary>
+BtnConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_child._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_material._TxtMaterialTitle">
+<summary>
+TxtMaterialTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_material._rfvTxtMaterialTitle">
+<summary>
+rfvTxtMaterialTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_material._TxtMaterialChapter">
+<summary>
+TxtMaterialChapter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_material._TxtPublishedYear">
+<summary>
+TxtPublishedYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_material._RvTxtPublishedYear">
+<summary>
+RvTxtPublishedYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_material._TxtRemark">
+<summary>
+TxtRemark control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_material._BtnInsert">
+<summary>
+BtnInsert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_material._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputFirstName">
+<summary>
+InputFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputLastName">
+<summary>
+InputLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputChineseName">
+<summary>
+InputChineseName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputContactNo">
+<summary>
+InputContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputEmail">
+<summary>
+InputEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputGender">
+<summary>
+InputGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputDateOfBirth">
+<summary>
+InputDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputStreetAddress">
+<summary>
+InputStreetAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputCity">
+<summary>
+InputCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputPostcode">
+<summary>
+InputPostcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputState">
+<summary>
+InputState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputCountry">
+<summary>
+InputCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputRole">
+<summary>
+InputRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputService">
+<summary>
+InputService control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputStartDate">
+<summary>
+InputStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputChildName">
+<summary>
+InputChildName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputRelationship">
+<summary>
+InputRelationship control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._InputReligion">
+<summary>
+InputReligion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._BtnSubmit">
+<summary>
+BtnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person_confirmation._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtFirstName">
+<summary>
+TxtFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CheckFirstName">
+<summary>
+CheckFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtLastName">
+<summary>
+TxtLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CheckLastName">
+<summary>
+CheckLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtChineseName">
+<summary>
+TxtChineseName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtContactNo">
+<summary>
+TxtContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._checkContactNo">
+<summary>
+checkContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._RvTxtContactNo">
+<summary>
+RvTxtContactNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtEmail">
+<summary>
+TxtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._RevEmail">
+<summary>
+RevEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._RblGender">
+<summary>
+RblGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CheckGender">
+<summary>
+CheckGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtDateOfBirth">
+<summary>
+TxtDateOfBirth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CvDateOfBirthYearOnly">
+<summary>
+CvDateOfBirthYearOnly control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtStreetAddress">
+<summary>
+TxtStreetAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtCity">
+<summary>
+TxtCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtPostcode">
+<summary>
+TxtPostcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtState">
+<summary>
+TxtState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtCountry">
+<summary>
+TxtCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CblUserType">
+<summary>
+CblUserType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CvUserType">
+<summary>
+CvUserType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._divTeacherSection">
+<summary>
+divTeacherSection control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._RblRole">
+<summary>
+RblRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CheckRole">
+<summary>
+CheckRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CblServiceType">
+<summary>
+CblServiceType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtServiceType">
+<summary>
+TxtServiceType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CheckTxtServiceType">
+<summary>
+CheckTxtServiceType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._TxtServiceStartDate">
+<summary>
+TxtServiceStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._rvserviceStartDate">
+<summary>
+rvserviceStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._RvTxtServiceStartDate">
+<summary>
+RvTxtServiceStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._divGuardianSection">
+<summary>
+divGuardianSection control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._DdlChild">
+<summary>
+DdlChild control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CheckChild">
+<summary>
+CheckChild control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._DdlRelationship">
+<summary>
+DdlRelationship control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CheckRelationship">
+<summary>
+CheckRelationship control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._RblReligion">
+<summary>
+RblReligion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._CheckReligion">
+<summary>
+CheckReligion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._BtnConfirm">
+<summary>
+BtnConfirm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._SqlDataSource_Roles">
+<summary>
+SqlDataSource_Roles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._SqlDataSource_serviceList">
+<summary>
+SqlDataSource_serviceList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_person._SqlDataSource_Children">
+<summary>
+SqlDataSource_Children control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_user._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_user._GridView_AddUser">
+<summary>
+GridView_AddUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.add_new_user._SqlDataSource_editUserInfo">
+<summary>
+SqlDataSource_editUserInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._UserRole">
+<summary>
+UserRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._BtnMenu">
+<summary>
+BtnMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._BtnExit">
+<summary>
+BtnExit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._UserRoleMobile">
+<summary>
+UserRoleMobile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._BtnMenuMobile">
+<summary>
+BtnMenuMobile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._BtnExitMobile">
+<summary>
+BtnExitMobile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._lblDate">
+<summary>
+lblDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._txtActivityDate">
+<summary>
+txtActivityDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._lblActivity">
+<summary>
+lblActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._ddlActivity">
+<summary>
+ddlActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._BtnUpdate">
+<summary>
+BtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._BtnView">
+<summary>
+BtnView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._GridView_recordAttendance">
+<summary>
+GridView_recordAttendance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._SqlDataSource_Activity">
+<summary>
+SqlDataSource_Activity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_record._SqlDataSource_recordAttendance">
+<summary>
+SqlDataSource_recordAttendance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_view._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_view._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_view._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_view._ddlActivity">
+<summary>
+ddlActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_view._BtnViewReport">
+<summary>
+BtnViewReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_view._GridView_childAttendance">
+<summary>
+GridView_childAttendance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.attendance_view._SqlDataSource_childAttendance">
+<summary>
+SqlDataSource_childAttendance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._TxtNewPass">
+<summary>
+TxtNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._CheckTxtNewPass">
+<summary>
+CheckTxtNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._PasswordValidator">
+<summary>
+PasswordValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._TxtVerifyNewPass">
+<summary>
+TxtVerifyNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._CheckVerifyNewPass">
+<summary>
+CheckVerifyNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._cvVerifyNewPass">
+<summary>
+cvVerifyNewPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._showPass">
+<summary>
+showPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_reset._BtnResetPass">
+<summary>
+BtnResetPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_verify._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_verify._TxtVerifyCode">
+<summary>
+TxtVerifyCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_verify._CheckVerifyCode">
+<summary>
+CheckVerifyCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password_verify._BtnVerifyCode">
+<summary>
+BtnVerifyCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password._txtUser">
+<summary>
+txtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password._ChecktxtUser">
+<summary>
+ChecktxtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password._TxtEmail">
+<summary>
+TxtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password._CheckEmail">
+<summary>
+CheckEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password._BtnSendCode">
+<summary>
+BtnSendCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.forgot_password._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login_general._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login_general._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login_general._ChecktxtName">
+<summary>
+ChecktxtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login_general._txtRole">
+<summary>
+txtRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login_general._ChecktxtRole">
+<summary>
+ChecktxtRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login_general._showRole">
+<summary>
+showRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login_general._BtnAccess">
+<summary>
+BtnAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login_general._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._txtUser">
+<summary>
+txtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._ChecktxtUser">
+<summary>
+ChecktxtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._txtPass">
+<summary>
+txtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._CheckTxtPass">
+<summary>
+CheckTxtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._showPass">
+<summary>
+showPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._ForgotPass">
+<summary>
+ForgotPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._BtnLogin">
+<summary>
+BtnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.login._BtnCancel">
+<summary>
+BtnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_activity._txtActivityYear">
+<summary>
+txtActivityYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_activity._BtnSearch">
+<summary>
+BtnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_activity._GridView_Activity">
+<summary>
+GridView_Activity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_activity._SqlDataSource_ActivitiesList">
+<summary>
+SqlDataSource_ActivitiesList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_activity._SqlDataSource_MaterialsList">
+<summary>
+SqlDataSource_MaterialsList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_activity._SqlDataSource_viewActivity">
+<summary>
+SqlDataSource_viewActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_child_details._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_child_details._lblClass">
+<summary>
+lblClass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_child_details._ddlSearchClass">
+<summary>
+ddlSearchClass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_child_details._GridView_Child">
+<summary>
+GridView_Child control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_child_details._SqlDataSource_ClassList">
+<summary>
+SqlDataSource_ClassList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_child_details._SqlDataSource_childInfo">
+<summary>
+SqlDataSource_childInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_children._lblActive">
+<summary>
+lblActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_children._ddlSearchActive">
+<summary>
+ddlSearchActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_children._GridView_Child">
+<summary>
+GridView_Child control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_children._SqlDataSource_childInfo">
+<summary>
+SqlDataSource_childInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._RblSearchGender">
+<summary>
+RblSearchGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._GridView_Guardian">
+<summary>
+GridView_Guardian control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._SqlDataSource_ChildList">
+<summary>
+SqlDataSource_ChildList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._SqlDataSource_Roles">
+<summary>
+SqlDataSource_Roles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._SqlDataSource_ServiceType">
+<summary>
+SqlDataSource_ServiceType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._SqlDataSource_guardianInfo">
+<summary>
+SqlDataSource_guardianInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._TxtName">
+<summary>
+TxtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._RblRole">
+<summary>
+RblRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._CblServiceType">
+<summary>
+CblServiceType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._SqlDataSource_serviceList">
+<summary>
+SqlDataSource_serviceList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._TxtStartDate">
+<summary>
+TxtStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._TxtEmail">
+<summary>
+TxtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_guardian_details._BtnSubmit">
+<summary>
+BtnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_materials._lblMaterial">
+<summary>
+lblMaterial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_materials._ddlSearchMaterial">
+<summary>
+ddlSearchMaterial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_materials._GridView_material">
+<summary>
+GridView_material control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_materials._SqlDataSource_materialList">
+<summary>
+SqlDataSource_materialList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_materials._SqlDataSource_material">
+<summary>
+SqlDataSource_material control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_address._DetailsView_ManageTeacherAddress">
+<summary>
+DetailsView_ManageTeacherAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_address._SqlDataSource_teacherAddress">
+<summary>
+SqlDataSource_teacherAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_address._BtnDone">
+<summary>
+BtnDone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_details._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_details._rblSearchRole">
+<summary>
+rblSearchRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_details._GridView_Teacher">
+<summary>
+GridView_Teacher control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_details._SqlDataSource_Roles">
+<summary>
+SqlDataSource_Roles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_details._SqlDataSource_teacherArrangement">
+<summary>
+SqlDataSource_teacherArrangement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_details._pnlActionButtons">
+<summary>
+pnlActionButtons control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_details._BtnUpdateAddress">
+<summary>
+BtnUpdateAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_details._BtnUpdateService">
+<summary>
+BtnUpdateService control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_service._gvTeacherServices">
+<summary>
+gvTeacherServices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher_service._BtnDone">
+<summary>
+BtnDone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._lblActive">
+<summary>
+lblActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._ddlSearchActive">
+<summary>
+ddlSearchActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._GridView_Teacher">
+<summary>
+GridView_Teacher control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._HiddenStaffID">
+<summary>
+HiddenStaffID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._SqlDataSource_Children">
+<summary>
+SqlDataSource_Children control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._SqlDataSource_editUserInfo">
+<summary>
+SqlDataSource_editUserInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._DdlChild">
+<summary>
+DdlChild control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._DdlRelationship">
+<summary>
+DdlRelationship control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._DdlReligion">
+<summary>
+DdlReligion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_teacher._BtnSaveGuardian">
+<summary>
+BtnSaveGuardian control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_users._BtnAddUser">
+<summary>
+BtnAddUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.manage_users._BtnRmvUser">
+<summary>
+BtnRmvUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.register._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.register._TxtUsername">
+<summary>
+TxtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.register._CheckTxtUsername">
+<summary>
+CheckTxtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.register._TxtPass">
+<summary>
+TxtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.register._CheckTxtPass">
+<summary>
+CheckTxtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.register._PasswordValidator">
+<summary>
+PasswordValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.register._showPass">
+<summary>
+showPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.register._BtnCreate">
+<summary>
+BtnCreate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.remove_user._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.remove_user._GridView_RemoveUser">
+<summary>
+GridView_RemoveUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.remove_user._SqlDataSource_editUserInfo">
+<summary>
+SqlDataSource_editUserInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_attendance_summaries._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_attendance_summaries._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_attendance_summaries._ddlActivity">
+<summary>
+ddlActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_attendance_summaries._BtnExportPDF">
+<summary>
+BtnExportPDF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_attendance_summaries._gvAttendance">
+<summary>
+gvAttendance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_children_information._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_children_information._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_children_information._lblActive">
+<summary>
+lblActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_children_information._ddlSearchActive">
+<summary>
+ddlSearchActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_children_information._BtnExportPDF">
+<summary>
+BtnExportPDF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_children_information._GridView_Child">
+<summary>
+GridView_Child control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_children_information._SqlDataSource_childInfo">
+<summary>
+SqlDataSource_childInfo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._lblScheduleType">
+<summary>
+lblScheduleType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._ddlScheduleType">
+<summary>
+ddlScheduleType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._lblYear">
+<summary>
+lblYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._lblHalf">
+<summary>
+lblHalf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._ddlHalf">
+<summary>
+ddlHalf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._BtnFilter">
+<summary>
+BtnFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._BtnExportPDF">
+<summary>
+BtnExportPDF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.report_teacher_activity_schedule._GridView_Arrangement">
+<summary>
+GridView_Arrangement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._BtnReport">
+<summary>
+BtnReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._BtnReturn">
+<summary>
+BtnReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_Class">
+<summary>
+SqlDataSource_Class control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_TA">
+<summary>
+SqlDataSource_TA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_Speaker">
+<summary>
+SqlDataSource_Speaker control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_SongLeader1">
+<summary>
+SqlDataSource_SongLeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_SongLeader2">
+<summary>
+SqlDataSource_SongLeader2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_Pianist">
+<summary>
+SqlDataSource_Pianist control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_Prayer">
+<summary>
+SqlDataSource_Prayer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_Theory">
+<summary>
+SqlDataSource_Theory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._TxtActivityYear">
+<summary>
+TxtActivityYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._BtnSearch">
+<summary>
+BtnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._rblHalfYear">
+<summary>
+rblHalfYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._GridView_Arrangement">
+<summary>
+GridView_Arrangement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.schedule_arrangement._SqlDataSource_Arrangement">
+<summary>
+SqlDataSource_Arrangement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.view_reports._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.view_reports._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.SiteMaster._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.SiteMaster._UserName">
+<summary>
+UserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.SiteMaster._UserRole">
+<summary>
+UserRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.SiteMaster._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.Site_Mobile._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.Site_Mobile._UserName">
+<summary>
+UserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.Site_Mobile._UserRole">
+<summary>
+UserRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.Site_Mobile._BtnLogout">
+<summary>
+BtnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:sunday_school_ms.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
