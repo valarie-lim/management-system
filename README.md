@@ -13,6 +13,7 @@ https://bem-sun-sch.runasp.net
 ## System Preview
 ![Home](screenshots/home.png)
 ![Password Reset with Email](screenshots/reset_password_with_email.png)
+![Attendance Recording](screenshots/attendance_recording.png)
 ![Children Management](screenshots/children_management.png)
 ![Teacher Management](screenshots/teacher_management.png)
 ![Add Teacher](screenshots/add_teacher.png)
