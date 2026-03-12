@@ -1,21 +1,54 @@
 # Sunday School Management System
-
-ASP.NET Web Application | SQL Server | PDF Reporting | SMTP Email | Cloud Deployment | HTTPS Security
+![Framework](https://img.shields.io/badge/Framework-ASP.NET-blue)
+![Backend](https://img.shields.io/badge/Backend-VB.NET-purple)
+![Frontend](https://img.shields.io/badge/Frontend-HTML-orange)
+![Frontend](https://img.shields.io/badge/Frontend-CSS-blue)
+![Frontend](https://img.shields.io/badge/Frontend-JavaScript-yellow)
+![Database](https://img.shields.io/badge/Database-SQL%20Server-red)
+![Feature](https://img.shields.io/badge/Feature-PDF%20Reporting-green)
+![Feature](https://img.shields.io/badge/Feature-SMTP%20Email-orange)
+![Security](https://img.shields.io/badge/Security-HTTPS-success)
+![Cloud](https://img.shields.io/badge/Cloud-MonsterASP.NET-blue)
 
 A web-based management system developed as a capstone project for the Diploma in Information Technology programme.  
 The system helps Sunday School administrators and teachers manage attendance records, children information, and activity schedules through a centralized database-driven platform.
 
 Live Demo  
-https://bem-sun-sch.runasp.net
+https://bem-sun-sch.runasp.net  
+  
+Test Account  
+Username: user2  
+Password: Admin@123  
 
 ---
 
 ## System Preview
+### Home Page
 ![Home](screenshots/home.png)
+
+---
+
+### Password Reset Page
 ![Password Reset with Email](screenshots/reset_password_with_email.png)
+
+---
+
+### Attendance Recording Page
 ![Attendance Recording](screenshots/attendance_recording.png)
+
+---
+
+### Children Management Page
 ![Children Management](screenshots/children_management.png)
+
+---
+
+### Teacher Management Page
 ![Teacher Management](screenshots/teacher_management.png)
+
+---
+
+### Add Teacher Page
 ![Add Teacher](screenshots/add_teacher.png)
 
 ---
