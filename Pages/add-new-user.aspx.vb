@@ -48,7 +48,7 @@ Public Class add_new_user
                 email = email.Trim()
                 If Not email.Contains("@") Then Throw New Exception("Recipient email is invalid.")
 
-                Dim from As String = "bemkchsundayschool@gmail.com"
+                Dim from As String = Environment.GetEnvironmentVariable("SENDER_EMAIL")
                 Dim smtpUser As String = Environment.GetEnvironmentVariable("SMTP_USER")
                 Dim smtpPass As String = Environment.GetEnvironmentVariable("SMTP_PASS")
 
