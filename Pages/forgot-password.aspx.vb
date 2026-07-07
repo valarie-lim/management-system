@@ -48,7 +48,7 @@ Public Class forgot_password
         Session("ResetCode") = randomCode
 
         ' Email configuration
-        Dim from As String = Environment.GetEnvironmentVariable("SMTP_USER")
+        Dim from As String = Environment.GetEnvironmentVariable("SENDER_EMAIL")
         Dim smtpUser As String = Environment.GetEnvironmentVariable("SMTP_USER")
         Dim smtpPass As String = Environment.GetEnvironmentVariable("SMTP_PASS")
         Dim uniqueTimestamp As String = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
