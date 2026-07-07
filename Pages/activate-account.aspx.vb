@@ -59,7 +59,7 @@ Public Class activate_account
         ' Send reactivation email if email exists
         If Not String.IsNullOrEmpty(email) Then
             Try
-                Dim from As String = "bemkchsundayschool@gmail.com"
+                Dim from As String = Environment.GetEnvironmentVariable("SMTP_USER")
                 Dim smtpUser As String = Environment.GetEnvironmentVariable("SMTP_USER")
                 Dim smtpPass As String = Environment.GetEnvironmentVariable("SMTP_PASS")
 
