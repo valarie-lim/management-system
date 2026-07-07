@@ -49,8 +49,8 @@ Public Class forgot_password
 
         ' Email configuration
         Dim from As String = "bemkchsundayschool@gmail.com"
-        Dim smtpUser As String = "9a59db001@smtp-brevo.com"
-        Dim smtpPass As String = "xsmtpsib-91b5119e30a26aba292c781ed745af84d552deff7af05b986f002cc79d6cde91-Jmmj8vt5Cr1u4Fq0"
+        Dim smtpUser As String = Environment.GetEnvironmentVariable("SMTP_USER")
+        Dim smtpPass As String = Environment.GetEnvironmentVariable("SMTP_PASS")
         Dim uniqueTimestamp As String = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
 
         Dim message As New MailMessage()
