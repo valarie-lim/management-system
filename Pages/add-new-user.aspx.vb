@@ -75,7 +75,7 @@ Public Class add_new_user
                 Dim smtp As New SmtpClient("smtp-relay.brevo.com", 587)
                 smtp.EnableSsl = True
                 smtp.UseDefaultCredentials = False
-                smtp.Credentials = New NetworkCredential(smtpuser, smtppass)
+                smtp.Credentials = New NetworkCredential(smtpUser, smtpPass)
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network
 
                 smtp.Send(message)
